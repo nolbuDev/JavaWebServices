@@ -1,0 +1,5 @@
+package com.nolbu.ws.soap;
+
+public interface RequestRide {
+
+}

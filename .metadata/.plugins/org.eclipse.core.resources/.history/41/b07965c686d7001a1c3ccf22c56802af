@@ -1,0 +1,14 @@
+package com.nolbu.ws.soap;
+
+import com.nolbu.ws.dto.RideRequest;
+import com.nolbu.ws.dto.RideResponse;
+
+public class RequestRideImpl implements RequestRide {
+
+	@Override
+	public RideResponse setRide(RideRequest rideRequest) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

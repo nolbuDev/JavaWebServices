@@ -1,0 +1,5 @@
+package com.nolbu.ws.config;
+
+public class WebServiceConfig {
+
+}

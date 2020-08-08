@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;wsdlfirstws/src/main/resources/wsdl/CustomerOrders.wsdl&apos; to &apos;CustomerOrders.wsdl.back&apos;" description="Rename resource &apos;CustomerOrders.wsdl&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/wsdl/CustomerOrders.wsdl" name="CustomerOrders.wsdl.back" stamp="1596604444174" updateReferences="true"/>
+</session>

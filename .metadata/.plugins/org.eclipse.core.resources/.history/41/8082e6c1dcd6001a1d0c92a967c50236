@@ -1,0 +1,33 @@
+package com.nolbu.ws.soap;
+
+import java.math.BigInteger;
+import java.util.List;
+import java.util.Map;
+
+import org.apache.cxf.feature.Features;
+
+import com.nolbu.ws.trainings.CreateOrdersRequest;
+import com.nolbu.ws.trainings.CreateOrdersResponse;
+import com.nolbu.ws.trainings.CustomerOrdersPortType;
+import com.nolbu.ws.trainings.GetOrdersRequest;
+import com.nolbu.ws.trainings.GetOrdersResponse;
+
+
+@Features(features="org.apache.cxf.feature.LoggingFeature")
+public class CustomerOrdersWsimpl implements CustomerOrdersPortType {
+	
+	Map<BigInteger, List<Order>> customerOrders = new HashMap<>();
+
+	@Override
+	public GetOrdersResponse getOrders(GetOrdersRequest parameters) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public CreateOrdersResponse createOrders(CreateOrdersRequest parameters) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
